@@ -1,1 +1,37 @@
-Welcome
+<?php 
+require_once 'config/settings.php';
+?>
+<!DOCTYPE html>
+<head>
+	<title>FakhrySenpai - Free Online Tools</title>
+	<?php include 'partials/_meta.php';?>
+	<meta name="description" content="Layanan Tools Online Yang Bisa Kalian Gunakan Sesuai Dengan Kebutuhan Kalian Masing-Masing, Dan Kami Harap Layanan Kami Berguna Untuk Kalian Semua.">
+	<?php include 'partials/_linkrel.php';?>
+	<link rel="stylesheet" href="/assets/css/theme/indexx.css">	
+	<audio autoplay="true" hidden="hidden" type="audio/mp3" src="<?php echo $baseurl;?>/assets/music/ghost.mp3"></audio>
+</head>
+<body>
+<style>
+body{ background: url("/assets/images/aestetik.gif") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+</style>
+<div class="bg"></div>
+   <div class="text">
+      <div class="status">
+       <p>HELLO <span class="typed-text"></span><span class="cursor typing"></span></p>
+       </div>
+       <hr>
+       <div class="visithome">
+       <p>Go To <a href="home" class="text-danger" target="_blank">Homepage</a></p>
+       </div>
+    </div>
+    <div class="bottom">
+    <p><a href="http://wa.me/48699555922" target="_blank" class="btn btn-outline-danger btn-icon-text"><i class="btn-icon-prepend fa fa-whatsapp" aria-hidden="true"></i>WhatsApp</a></p>
+   </div>
+   <script src="/assets/js/indexscript.js"></script>
+</body>
+</html>    
